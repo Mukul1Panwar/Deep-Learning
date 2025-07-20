@@ -2,7 +2,8 @@
 
 !cp kaggle.json ~/.kaggle/
 
-!kaggle datasets download lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+import os
+os.system('kaggle datasets download lakshmi25npathi/imdb-dataset-of-50k-movie-reviews')
 
 import pandas as pd
 import numpy as np
