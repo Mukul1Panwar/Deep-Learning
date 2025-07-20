@@ -1,6 +1,4 @@
-!mkdir -p ~/.kaggle
 
-!cp kaggle.json ~/.kaggle/
 
 import os
 os.system('kaggle datasets download lakshmi25npathi/imdb-dataset-of-50k-movie-reviews')
